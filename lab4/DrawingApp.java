@@ -14,6 +14,7 @@ public class DrawingApp extends JFrame {
         setTitle("Painter");
         setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setResizable(true);
 
         //Панель для выбора цвета
         JPanel buttonPanel = new JPanel();
